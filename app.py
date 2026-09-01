@@ -15,7 +15,7 @@ import subprocess
 from aiohttp import web
 
 # 环境变量
-UUID = os.environ.get('UUID', '21181f99-05ac-44be-ac67-039ec2baaa51')   # 节点UUID
+UUID = os.environ.get('UUID', 'e963d468-faa4-4bc7-b3ae-57c3e0903f64')   # 节点UUID
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')    # 哪吒v0填写格式: nezha.xxx.com  哪吒v1填写格式: nezha.xxx.com:8008
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')        # 哪吒v1请留空，哪吒v0 agent端口
 NEZHA_KEY = os.environ.get('NEZHA_KEY', '')          # 哪吒v0或v1密钥，哪吒面板后台命令里获取
